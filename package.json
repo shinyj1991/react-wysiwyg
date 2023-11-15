@@ -1,0 +1,18 @@
+{
+  "name": "@shinyongjun/react-wysiwyg-monorepo",
+  "version": "0.0.1",
+  "author": "shinyongjun",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "npm run build -w package",
+    "watch": "npm run watch -w package",
+    "dev": "npm run start -w test",
+    "link": "npm link -w package && npm link @shinyongjun/react-wysiwyg -w test",
+    "publish": "npm publish --access public -w package"
+  },
+  "workspaces": [
+    "package",
+    "test"
+  ]
+}

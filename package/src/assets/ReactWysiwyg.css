@@ -1,0 +1,18 @@
+.react-wysiwyg__wrapper {
+  position: relative;
+  background: #fff;
+  font-size: 14px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.react-wysiwyg__toolsbar {
+  display: flex;
+  padding: 12px;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+.react-wysiwyg__editor {
+  min-height: 300px;
+  padding: 12px;
+  box-sizing: border-box;
+}
