@@ -1,14 +1,12 @@
 import * as React from 'react';
 import { NAME_SPACE } from '../constants/core';
 import Editor from './Editor';
-import Toolsbar from './Toolsbar';
+import Toolbar from './Toolbar';
 
-interface IProps {}
-
-function Wysiwyg({}: IProps) {
+function Wysiwyg() {
   return (
     <div className={`${NAME_SPACE}__wrapper`}>
-      <Toolsbar />
+      <Toolbar />
       <Editor />
     </div>
   );
